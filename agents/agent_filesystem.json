@@ -1,0 +1,12 @@
+{
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "provider": "nebius",
+    "servers": [
+        {
+            "type": "stdio",
+            "command": "cmd",
+            "args": ["/c", "npx", "@modelcontextprotocol/server-filesystem", "C:\\Users\\YourUsername\\Documents"]
+        }
+    ]
+}
+
